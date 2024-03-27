@@ -1,8 +1,8 @@
 # 42-common-core
-I'm Patryk and I am student at 42 Warsaw and those are my 42 school projects
+Hi! I'm Patryk and I am student at 42 Warsaw and this is my 42 school projects page
 
 <h2><p><b>FIRST PROJECT</b></p></h2>
-<div style="margin-top: 20px;">
+<div style="padding-top: 20px;">
   <li> <img width="50" height="50" src="https://img.icons8.com/3d-fluency/94/book-shelf.png" alt="book-shelf"/> <span> <a href="https://github.com/Zuraw7/42-common-core/tree/main/libft"> <b> Libft </b> </a> </span> </li>
 
 </div>
