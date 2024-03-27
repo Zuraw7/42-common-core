@@ -3,7 +3,7 @@ I'm Patryk and I am student at 42 Warsaw and those are my 42 school projects
 
 <h2><p><b>FIRST PROJECT</b></p></h2>
 <ul>
-  <img src="https://icons8.com/icon/FNHbyJNFRRf4/book-shelf" alt="libft">
+  <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/book-shelf.png" alt="book-shelf"/>
   
   <li><a href="https://github.com/Zuraw7/42-common-core/tree/main/libft">libft</a></li>
 </ul>
