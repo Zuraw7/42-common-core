@@ -1,7 +1,7 @@
 # 42-common-core
 Hi! I'm Patryk and I am student at 42 Warsaw and this is my 42 school projects page
 
-<h2><p><b>FIRST PROJECT</b></p></h2>
+<h2><p><b>MY LIBRARY FOR C PROJECTS</b></p></h2>
 <ul>
   <li> <a href="https://github.com/Zuraw7/42-common-core/tree/main/libft" style="color: white; text-decoration: none;">libft</a> </li>
 
