@@ -1,0 +1,8 @@
+Libft
+
+Libft is a project that aims to creata a custom library of functions in the C programming language.
+This library contains basic functions from the standard C library as well as additional functions that may be useful in subsequent projects throughout the curriculum.
+
+The goal of this project is to learn the basics of programming in C, memory management, and working with pointers.
+Creating the library involves accurately reproducing various functions from popular libraries such as stdlib.h and string.h.
+
