@@ -1,4 +1,1 @@
-<h1><strong>Libft</strong></h1>
-    <p><strong>Libft</strong> is a project that aims to create a custom library of functions in the C programming language. This library contains basic functions from the standard C library as well as additional functions that may be useful in subsequent projects throughout the curriculum.</p>
-    <p>The goal of this project is to learn the basics of programming in C, memory management, and working with pointers. Creating the library involves accurately reproducing various functions from popular libraries such as <code>stdlib.h</code> and <code>string.h</code>.</p>
-</body>
+
