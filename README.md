@@ -18,3 +18,8 @@ Hi! I'm Patryk and I am student at 42 Warsaw and this is my 42 school projects p
   <li><a href="https://github.com/Zuraw7/42-common-core/tree/main/so_long" style="color: white; text-decoration: none;">so_long</a></li>
   <li><a href="https://github.com/Zuraw7/42-common-core/tree/main/pipex" style="color: white; text-decoration: none;">pipex</a></li>
 </ul>
+
+<h2><p><b>THIRD LAYER</b></p></h2>
+<ul>
+  <li><a href="https://github.com/Zuraw7/42-common-core/tree/main/philosophers" style="color: white; text-decoration: none;">Philosophers</a></li>
+</ul>
