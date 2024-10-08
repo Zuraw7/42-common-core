@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   one_philo_case.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pzurawic <pzurawic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zuraw <zuraw@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 15:54:16 by pzurawic          #+#    #+#             */
-/*   Updated: 2024/09/07 13:27:14 by pzurawic         ###   ########.fr       */
+/*   Updated: 2024/10/08 11:07:32 by zuraw            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,16 +20,10 @@ static void	*one_philo_routine(void *arg)
 	philo->last_meal_time = philo->data->start_time;
 	pthread_mutex_lock(philo->l_fork);
 	write_msg(philo, 'f');
-	while (1)
-	{
-		if (check_sim_status(philo) == 1)
-			break ;
-		sleeping(philo);
-		if (check_sim_status(philo) == 1)
-			break ;
-		thinking(philo);
-	}
+	while (get_time() - philo->last_meal_time < philo->data->time_to_die)
+		usleep(100);
 	pthread_mutex_unlock(philo->l_fork);
+	write_msg(philo, 'd');
 	return (NULL);
 }
 

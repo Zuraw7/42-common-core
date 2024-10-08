@@ -3,38 +3,40 @@
 /*                                                        :::      ::::::::   */
 /*   simulation.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pzurawic <pzurawic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zuraw <zuraw@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 16:00:23 by pzurawic          #+#    #+#             */
-/*   Updated: 2024/09/07 13:27:23 by pzurawic         ###   ########.fr       */
+/*   Updated: 2024/10/08 11:14:44 by zuraw            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/philo.h"
+
+static void	synchro_routine(t_philo *philo)
+{
+	if (philo->data->nb_of_philo % 2 == 0)
+	{
+		if (philo->id % 2 == 0)
+			usleep(100);
+	}
+	else
+	{
+		if (philo->id % 2)
+			thinking(philo, true);
+	}
+}
 
 static void	*routine(void *arg)
 {
 	t_philo	*philo;
 
 	philo = (t_philo *)arg;
-	if (philo->id % 2)
-		usleep(100);
+	synchro_routine(philo);
 	while (philo->data->sim_status == true)
 	{
-		if (check_sim_status(philo) == 1)
-			break ;
 		eating(philo);
-		if (check_sim_status(philo) == 1)
-		{
-			putdown_forks(philo);
-			break ;
-		}
-		putdown_forks(philo);
 		sleeping(philo);
-		if (check_sim_status(philo) == 1)
-			break ;
-		if (philo->data->time_to_eat - philo->data->time_to_sleep != 0)
-			thinking(philo);
+		thinking(philo, false);
 	}
 	return (NULL);
 }

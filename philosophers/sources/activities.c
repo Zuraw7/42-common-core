@@ -3,27 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   activities.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pzurawic <pzurawic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zuraw <zuraw@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 15:56:28 by pzurawic          #+#    #+#             */
-/*   Updated: 2024/09/07 13:27:02 by pzurawic         ###   ########.fr       */
+/*   Updated: 2024/10/08 11:10:53 by zuraw            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/philo.h"
 
-void	thinking(t_philo *philo)
+void	thinking(t_philo *philo, bool pre_sim)
 {
-	t_data	*data;
-	time_t	time;
+	time_t	t_think;
+	time_t	t_sleep;
+	time_t	t_eat;
 
-	data = philo->data;
-	if (data->time_to_eat > data->time_to_sleep)
-		time = data->time_to_eat - data->time_to_sleep;
-	else
-		time = data->time_to_sleep - data->time_to_eat;
-	write_msg(philo, 't');
-	usleep(time * 1000);
+	if (!pre_sim)
+		write_msg(philo, 't');
+	if (philo->data->nb_of_philo % 2 == 0)
+		return ;
+	t_sleep = philo->data->time_to_sleep;
+	t_eat = philo->data->time_to_eat;
+	t_think = t_eat * 2 - t_sleep;
+	if (t_think < 0)
+		t_think = 0;
+	usleep(t_think * 1000);
 }
 
 void	sleeping(t_philo *philo)
@@ -55,6 +59,7 @@ void	eating(t_philo *philo)
 	usleep(philo->data->time_to_eat * 1000);
 	if (philo->data->how_much_to_eat != -1)
 		update_meals(philo);
+	putdown_forks(philo);
 }
 
 void	putdown_forks(t_philo *philo)

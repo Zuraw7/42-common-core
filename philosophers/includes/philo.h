@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pzurawic <pzurawic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zuraw <zuraw@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 16:00:52 by pzurawic          #+#    #+#             */
-/*   Updated: 2024/09/04 16:04:16 by pzurawic         ###   ########.fr       */
+/*   Updated: 2024/10/08 11:11:31 by zuraw            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,7 +89,7 @@ int		check_sim_status(t_philo *philo);
 void	one_philo_case(t_data *data);
 
 // ACTIVITIES
-void	thinking(t_philo *philo);
+void	thinking(t_philo *philo, bool pre_sim);
 void	sleeping(t_philo *philo);
 void	eating(t_philo *philo);
 void	putdown_forks(t_philo *philo);
