@@ -1,4 +1,4 @@
-<p>The <strong>get_next_line</strong> project at 42 Academy involves implementing a function in C that reads a single line of text from a file or standard input with each call. The goal of this project is to learn how to work with files, manage dynamic memory, and manipulate pointers in the C language.</p>
+<p>The <strong>get_next_line</strong> project involves implementing a function in C that reads a single line of text from a file or standard input with each call. The goal of this project is to learn how to work with files, manage dynamic memory, and manipulate pointers in the C language.</p>
 
 <p>The <code>get_next_line</code> function reads a file line by line, regardless of the length of the line or the size of the file. Each call returns the next line, and the operation ends when the entire file has been processed or when the end of the file (EOF) is encountered.</p>
 
