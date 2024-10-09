@@ -1,4 +1,4 @@
-```html
+
 <p>The <strong>pipex</strong> project at 42 Academy involved implementing a program in C that enables connecting processes using pipes, similar to piping in Linux (e.g., <code>ls | grep</code>). The goal of this project was to understand how inter-process communication works, how to use pipes, manage processes, and redirect input and output streams.</p>
 
 <p>As part of the <strong>pipex</strong> project, I also completed the bonus part, which included handling multiple pipes (multi-pipe). This allowed me to chain several processes, just like more complex pipelines, such as <code>cmd1 | cmd2 | cmd3 ...</code>.</p>
@@ -21,4 +21,4 @@
 <pre><code>&lt; file1 cmd1 | cmd2 | cmd3 ... | cmdn &gt; file2</code></pre>
 
 <p>The <strong>pipex</strong> project helped me better understand inter-process communication in Unix systems and taught me how to manage processes and pipes efficiently and securely.</p>
-```
+
