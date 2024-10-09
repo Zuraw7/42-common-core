@@ -37,7 +37,7 @@ Hi! I'm Patryk, and I am a student at 42 Warsaw.<br/>This is my 42 school projec
   </li>
   <li>
     <a href="https://github.com/Zuraw7/42-common-core/tree/main/pipex" style="color: white; text-decoration: none;">
-      <img src="https://img.icons8.com/color/24/000000/pipe.png" style="vertical-align:middle;margin-right:8px;" alt="pipe icon"/>
+      <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/24/000000/external-pipeline-engineering-flatart-icons-outline-flatarticons.png" style="vertical-align:middle;margin-right:8px;" alt="pipe icon"/>
       pipex
     </a>
   </li>
