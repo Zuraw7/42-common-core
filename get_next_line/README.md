@@ -9,3 +9,5 @@
 </ul>
 
 <p>The <strong>get_next_line</strong> project helps deepen understanding of memory management, file operations, and implementing algorithms that efficiently handle dynamic data in C.</p>
+
+<p>Returned <strong>line</strong> has to be freed.</p>
