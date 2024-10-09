@@ -31,13 +31,13 @@ Hi! I'm Patryk, and I am a student at 42 Warsaw.<br/>This is my 42 school projec
 <ul>
   <li>
     <a href="https://github.com/Zuraw7/42-common-core/tree/main/so_long" style="color: white; text-decoration: none;">
-      <img src="https://img.icons8.com/color/24/000000/maze.png" style="vertical-align:middle;margin-right:8px;" alt="maze icon"/>
+      <img src="https://img.icons8.com/color/24/000000/controller.png" style="vertical-align:middle;margin-right:8px;" alt="game controller icon"/>
       so_long
     </a>
   </li>
   <li>
     <a href="https://github.com/Zuraw7/42-common-core/tree/main/pipex" style="color: white; text-decoration: none;">
-      <img src="https://img.icons8.com/color/24/000000/pipeline.png" style="vertical-align:middle;margin-right:8px;" alt="pipeline icon"/>
+      <img src="https://img.icons8.com/color/24/000000/pipe.png" style="vertical-align:middle;margin-right:8px;" alt="pipe icon"/>
       pipex
     </a>
   </li>
@@ -47,7 +47,7 @@ Hi! I'm Patryk, and I am a student at 42 Warsaw.<br/>This is my 42 school projec
 <ul>
   <li>
     <a href="https://github.com/Zuraw7/42-common-core/tree/main/philosophers" style="color: white; text-decoration: none;">
-      <img src="https://img.icons8.com/color/24/000000/philosophy.png" style="vertical-align:middle;margin-right:8px;" alt="philosophy icon"/>
+      <img src="https://img.icons8.com/color/24/000000/socrates.png" style="vertical-align:middle;margin-right:8px;" alt="philosopher icon"/>
       Philosophers
     </a>
   </li>
