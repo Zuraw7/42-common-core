@@ -11,6 +11,16 @@
     <li><strong>Multi-pipe handling</strong>: As part of the bonus, I added functionality to handle multiple commands connected in a long chain of pipes.</li>
 </ul>
 
+<p>For the regular version of the program, executed with <code>make</code>, the prompt looked like this:</p>
+
+<pre><code>$> ./pipex file1 "cmd1" "cmd2" file2</code></pre>
+
+<pre><code>$> ./pipex infile "ls -l" "wc -l" outfile</code></pre>
+
+<p>It must behave exactly the same as the shell command below:</p>
+
+<pre><code>$> &lt; infile ls -l | wc -l &gt; outfile</code></pre>
+
 <p>The prompt for the bonus part, executed with <code>make bonus</code>, looked like this:</p>
 
 <pre><code>$> ./pipex file1 cmd1 cmd2 cmd3 ... cmdn file2</code></pre>
@@ -19,12 +29,5 @@
 
 <pre><code>&lt; file1 cmd1 | cmd2 | cmd3 ... | cmdn &gt; file2</code></pre>
 
-<p>For the regular version of the program, executed with <code>make</code>, the prompt looked like this:</p>
-
-<pre><code>$> ./pipex infile "ls -l" "wc -l" outfile</code></pre>
-
-<p>It must behave exactly the same as the shell command below:</p>
-
-<pre><code>$> &lt; infile ls -l | wc -l &gt; outfile</code></pre>
 
 <p>The <strong>pipex</strong> project helped me better understand inter-process communication in Unix systems and taught me how to manage processes and pipes efficiently and securely.</p>
