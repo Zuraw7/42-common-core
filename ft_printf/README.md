@@ -1,4 +1,4 @@
-<p>The <strong>ft_printf</strong> project at 42 Academy involves implementing my own version of the <code>printf</code> function in the C programming language.</p>
+<p>The <strong>ft_printf</strong> project involves implementing my own version of the <code>printf</code> function in the C programming language.</p>
 
 <p>The goal of this project is to understand the complexity of the <code>printf</code> function, manage different data types, and handle a variable number of arguments.</p>
 
