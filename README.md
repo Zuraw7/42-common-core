@@ -1,17 +1,54 @@
 # 42-common-core
-Hi! I'm Patryk, and I am a student at 42 Warsaw.  
-This is my 42 school projects page.
+Hi! I'm Patryk, and I am a student at 42 Warsaw.<br/>This is my 42 school projects page.
 
-## MY LIBRARY FOR C PROJECTS
-- [![Library Icon](https://img.icons8.com/fluency/24/000000/library.png)](https://github.com/Zuraw7/42-common-core/tree/main/libft) [**libft**](https://github.com/Zuraw7/42-common-core/tree/main/libft)
+<h2><p><b>MY LIBRARY FOR C PROJECTS</b></p></h2>
+<ul>
+  <li> 
+    <a href="https://github.com/Zuraw7/42-common-core/tree/main/libft" style="color: white; text-decoration: none;">
+      <img src="https://img.icons8.com/color/48/000000/code.png" style="vertical-align:middle;margin-right:8px;" alt="code icon"/>
+      libft
+    </a> 
+  </li>
+</ul>
 
-## FIRST LAYER
-- [![Pencil Icon](https://img.icons8.com/fluency/24/000000/pencil.png)](https://github.com/Zuraw7/42-common-core/tree/main/ft_printf) [**ft_printf**](https://github.com/Zuraw7/42-common-core/tree/main/ft_printf)
-- [![Line Icon](https://img.icons8.com/fluency/24/000000/line.png)](https://github.com/Zuraw7/42-common-core/tree/main/get_next_line) [**get_next_line**](https://github.com/Zuraw7/42-common-core/tree/main/get_next_line)
+<h2><p><b>FIRST LAYER</b></p></h2>
+<ul>
+  <li>
+    <a href="https://github.com/Zuraw7/42-common-core/tree/main/ft_printf" style="color: white; text-decoration: none;">
+      <img src="https://img.icons8.com/color/48/000000/console.png" style="vertical-align:middle;margin-right:8px;" alt="console icon"/>
+      ft_printf
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/Zuraw7/42-common-core/tree/main/get_next_line" style="color: white; text-decoration: none;">
+      <img src="https://img.icons8.com/color/48/000000/list.png" style="vertical-align:middle;margin-right:8px;" alt="list icon"/>
+      get_next_line
+    </a>
+  </li>
+</ul>
 
-## SECOND LAYER
-- [![2D Character Icon](https://img.icons8.com/external-justicon-flat-justicon/24/000000/external-game-character-video-game-justicon-flat-justicon.png)](https://github.com/Zuraw7/42-common-core/tree/main/so_long) [**so_long**](https://github.com/Zuraw7/42-common-core/tree/main/so_long)
-- [![Pipe Icon](https://img.icons8.com/external-flatart-icons-flat-flatarticons/24/000000/external-pipeline-engineering-flatart-icons-flat-flatarticons.png)](https://github.com/Zuraw7/42-common-core/tree/main/pipex) [**pipex**](https://github.com/Zuraw7/42-common-core/tree/main/pipex)
+<h2><p><b>SECOND LAYER</b></p></h2>
+<ul>
+  <li>
+    <a href="https://github.com/Zuraw7/42-common-core/tree/main/so_long" style="color: white; text-decoration: none;">
+      <img src="https://img.icons8.com/color/48/000000/maze.png" style="vertical-align:middle;margin-right:8px;" alt="maze icon"/>
+      so_long
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/Zuraw7/42-common-core/tree/main/pipex" style="color: white; text-decoration: none;">
+      <img src="https://img.icons8.com/color/48/000000/pipeline.png" style="vertical-align:middle;margin-right:8px;" alt="pipeline icon"/>
+      pipex
+    </a>
+  </li>
+</ul>
 
-## THIRD LAYER
-- [![Philosopher Icon](https://img.icons8.com/fluency/24/000000/philosopher.png)](https://github.com/Zuraw7/42-common-core/tree/main/philosophers) [**Philosophers**](https://github.com/Zuraw7/42-common-core/tree/main/philosophers)
+<h2><p><b>THIRD LAYER</b></p></h2>
+<ul>
+  <li>
+    <a href="https://github.com/Zuraw7/42-common-core/tree/main/philosophers" style="color: white; text-decoration: none;">
+      <img src="https://img.icons8.com/color/48/000000/philosophy.png" style="vertical-align:middle;margin-right:8px;" alt="philosophy icon"/>
+      Philosophers
+    </a>
+  </li>
+</ul>
