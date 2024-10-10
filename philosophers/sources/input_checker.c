@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   input_checker.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zuraw <zuraw@student.42.fr>                +#+  +:+       +#+        */
+/*   By: pzurawic <pzurawic@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 15:57:32 by pzurawic          #+#    #+#             */
-/*   Updated: 2024/09/05 10:30:04 by zuraw            ###   ########.fr       */
+/*   Updated: 2024/10/10 16:00:51 by pzurawic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,12 @@ static int	set_data(t_data *data, char **argv, int argc)
 	data->time_to_eat = ft_atoi(argv[3]);
 	data->time_to_sleep = ft_atoi(argv[4]);
 	if (argc == 6)
-		data->how_much_to_eat = ft_atoi(argv[5]);
+	{
+		if (ft_atoi(argv[5]) == 0)
+			return (printf("It's not possible to eat 0 meals\n"), 1);
+		else
+			data->how_much_to_eat = ft_atoi(argv[5]);
+	}
 	else
 		data->how_much_to_eat = -1;
 	data->philo_finished = 0;
