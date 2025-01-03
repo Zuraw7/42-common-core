@@ -21,7 +21,7 @@ Hi! I'm Patryk, and I am a student at 42 Warsaw.<br/>This is my 42 school projec
 
 ## SECOND LAYER
 <a href="https://github.com/Zuraw7/42-common-core/tree/main/so_long" style="color: white; text-decoration: none;">
- 🎮 so_long
+🎮 so_long
 </a><br/>
 
 <a href="https://github.com/Zuraw7/42-common-core/tree/main/pipex" style="color: white; text-decoration: none;">
@@ -33,6 +33,6 @@ Hi! I'm Patryk, and I am a student at 42 Warsaw.<br/>This is my 42 school projec
   Philosophers
 </a><br />
 <a href="https://github.com/Zuraw7/42-common-core/tree/main/minishell" style="color: white; text-decoration: none;">
-  Minishell
+🐚 Minishell
 </a><br />
 
