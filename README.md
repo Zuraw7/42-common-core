@@ -32,3 +32,7 @@ Hi! I'm Patryk, and I am a student at 42 Warsaw.<br/>This is my 42 school projec
 <a href="https://github.com/Zuraw7/42-common-core/tree/main/philosophers" style="color: white; text-decoration: none;">
   Philosophers
 </a>
+<a href="https://github.com/Zuraw7/42-common-core/tree/main/minishell" style="color: white; text-decoration: none;">
+  Minishell
+</a>
+
