@@ -1,4 +1,4 @@
-# NetPractice Solutions
+# NetPractice Solutions Folder
 
 ## About
 
