@@ -1,0 +1,3 @@
+hello string1 its me string1
+this is another line with string1 and more text
+finally, here is a line without the target string

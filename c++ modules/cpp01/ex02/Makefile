@@ -1,0 +1,23 @@
+NAME = brain
+CC = c++
+CFLAGS = -Wall -Wextra -Werror -std=c++98
+SRC = main.cpp
+OBJ_DIR = obj
+OBJ = $(SRC:%.cpp=$(OBJ_DIR)/%.o)
+
+all: $(NAME)
+
+$(OBJ_DIR)/%.o: %.cpp
+	@mkdir -p $(OBJ_DIR)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(NAME): $(OBJ)
+	$(CC) $(CFLAGS) -o $(NAME) $(OBJ)
+
+clean:
+	rm -rf $(OBJ_DIR)
+
+fclean: clean
+	rm -f $(NAME)
+
+re: fclean all
