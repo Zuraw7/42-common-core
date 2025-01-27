@@ -1,4 +1,4 @@
-# C++ Module 02
+# C++ Module 03
 
 ## About the Project
 
