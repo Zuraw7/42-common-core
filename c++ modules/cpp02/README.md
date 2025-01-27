@@ -46,7 +46,6 @@ This project helped me refine my object-oriented programming skills, while also 
 
 5. **Geometric Problem Solving**
    - Using custom classes (like `Point`) to solve geometric problems.
-   - Implementing algorithms like BSP (Binary Space Partitioning) to check if a point lies inside a triangle.
 
 ---
 
