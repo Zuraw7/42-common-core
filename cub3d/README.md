@@ -31,4 +31,4 @@ Create an executable with Makefile:
 ``make``
 
 Run:
-``./cub3d ./maps/map00.cub``
+``./cub3d ./maps/map00.cub`` or ``./cub3d ./maps/map01.cub``
