@@ -1,0 +1,8 @@
+NO ./textures/Paredes/north_wall.xpm
+SO ./textures/Paredes/south_wall.xpm
+                EA ./textures/Paredes/east_wall.xpm
+
+           F 220,100,0
+WE ./textures/Paredes/west_wall.xpm
+C 225,30,250
+
