@@ -76,7 +76,7 @@ push_swap
 ./push_swap 3 2 1
 # output: ra sa
 
-./push_swap 5 1 3 2 3
+./push_swap 5 1 4 2 3
 # output: ra pb ra pb rra sa pa pa
 ```
 
