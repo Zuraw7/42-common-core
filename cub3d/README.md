@@ -1,6 +1,8 @@
 # 🧊 cub3d
 A simple ray-casting engine
 
+![Gameplay demo](./cub3d-vid.gif)
+
 # About
 Cub3D is a simple 3D game engine project based on raycasting, developed as part of the 42 Network. It is inspired by the classic game WOlfenstein 3D. The goal of this project is to render a 3D-like environment from a 2D map using C nad the MiniLibX (mlx) graphical library.
 
