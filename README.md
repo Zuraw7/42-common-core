@@ -26,11 +26,11 @@ Hi! I'm Patryk, and I am a student at 42 Warsaw.<br/>This is my 42 school projec
 
 <a href="https://github.com/Zuraw7/42-common-core/tree/main/pipex" style="color: white; text-decoration: none;">
   pipex
-</a>
+</a><br/>
 
 <a href="https://github.com/Zuraw7/42-common-core/tree/main/push_swap" style="color: white; text-decoration: none;">
   push_swap
-</a>
+</a><br/>
 
 ## THIRD LAYER
 <a href="https://github.com/Zuraw7/42-common-core/tree/main/philosophers" style="color: white; text-decoration: none;">
