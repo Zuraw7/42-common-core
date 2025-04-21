@@ -2,7 +2,7 @@
 
 **push_swap** is a project developed as part of the **42** program. The goal is to design and implement an algorithm that sorts integers using a limited set of operations on two stacks — `a` and `b`.
 
-The project focuses on minimizing the number of operations and is written in **C**. Algorithm I used is called Turk Algorith, closly described here: https://medium.com/@ayogun/push-swap-c1f5d2d41e97
+The project focuses on minimizing the number of operations and is written in **C**.
 
 ## Repository Structure
 
