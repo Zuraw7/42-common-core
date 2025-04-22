@@ -6,13 +6,13 @@
 /*   By: zuraw <zuraw@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/17 13:18:17 by zuraw             #+#    #+#             */
-/*   Updated: 2025/04/18 14:35:21 by zuraw            ###   ########.fr       */
+/*   Updated: 2025/04/22 10:04:08 by zuraw            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/push_swap.h"
 
-static int	set_hash_index(int value);
+static long	set_hash_index(long value);
 
 int	hash_insert(t_hash_table *hash, int value)
 {
@@ -40,7 +40,7 @@ int	hash_insert(t_hash_table *hash, int value)
 	return (0);
 }
 
-static int	set_hash_index(int value)
+static long	set_hash_index(long value)
 {
 	if (value < 0)
 		value = -value;

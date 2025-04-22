@@ -6,7 +6,7 @@
 /*   By: zuraw <zuraw@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 14:06:49 by zuraw             #+#    #+#             */
-/*   Updated: 2025/04/20 11:56:52 by zuraw            ###   ########.fr       */
+/*   Updated: 2025/04/22 10:03:49 by zuraw            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ typedef struct s_stack
 
 typedef struct s_hash_node
 {
-	int			value;
+	long		value;
 	t_hash_node	*next;
 }	t_hash_node;
 
