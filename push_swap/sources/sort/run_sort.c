@@ -6,7 +6,7 @@
 /*   By: zuraw <zuraw@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 14:11:57 by zuraw             #+#    #+#             */
-/*   Updated: 2025/04/19 14:20:56 by zuraw            ###   ########.fr       */
+/*   Updated: 2025/04/22 11:42:51 by zuraw            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@ void	run_sort(t_stack *a, t_stack *b)
 {
 	if (a->size <= 5)
 		small_stack(a, b);
-	else
+	else if (!is_sorted(a))
 		turk_sort(a, b);
 }
