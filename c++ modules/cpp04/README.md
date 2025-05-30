@@ -45,10 +45,10 @@
 To download the project to your computer, follow these steps:
 
 1. Clone the repository using `git`:
-   ```bash
+```bash
    git clone <repository_link>
    cd <repository_folder_name>
-   ```
+```
 
 2. Navigate to the appropriate subfolder (`ex00`, `ex01`, `ex02`, `ex03`) to check a specific task.
 

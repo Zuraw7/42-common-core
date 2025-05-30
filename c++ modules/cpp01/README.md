@@ -57,10 +57,10 @@ During this project, I expanded my knowledge of C++ by working on more complex s
 To download the project to your computer, follow these steps:
 
 1. Clone the repository using `git`:
-   ```bash
+```bash
    git clone <repository_link>
    cd <repository_folder_name>
-   ```
+```
 
 2. Navigate to the appropriate subfolder (e.g., `ex00`, `ex01`, ..., `ex06`) to check a specific task.
 
@@ -72,19 +72,19 @@ Each task is located in a separate folder (`ex00`, `ex01`, ..., `ex06`) and is i
 
 ### Running the Program:
 1. Navigate to the folder of the specific task, e.g.:
-   ```bash
+```bash
    cd ex00
-   ```
+```
 
 2. Use the `Makefile` to compile the program:
-   ```bash
+```bash
    make
-   ```
+```
 
 3. After compilation, run the program, e.g.:
-   ```bash
+```bash
    ./program_name <arguments>
-   ```
+```
 
 ### Cleaning Files:
 To remove object files and the executable, use:
