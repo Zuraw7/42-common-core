@@ -81,6 +81,7 @@ This module was an in-depth exercise in building practical tools using C++, with
 - **Custom algorithm implementation**
 - **STL mastery**
 - **Performance benchmarking**
+
 The `BitcoinExchange` project mirrors real-life data tools, `RPN` sharpens stack and parsing skills, while `PmergeMe` offers deep insight into classic algorithm optimization.
 
 ---
