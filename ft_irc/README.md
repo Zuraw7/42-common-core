@@ -46,7 +46,7 @@ Join the server:
 - Using halloy with this settings:
 ```bash
 [servers.local]
-password = "pass"
+password = "secretpass"
 nickname = "user1"
 server = "127.0.0.1"
 port = 6667
@@ -54,7 +54,7 @@ channels = ["#42", "#halloy"]
 use_tls = false
 
 [servers.local1]
-password = "pass"
+password = "secretpass"
 nickname = "user2"
 server = "127.0.0.1"
 port = 6667
